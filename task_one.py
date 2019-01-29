@@ -11,6 +11,13 @@ MAX_EL = 10_000
 
 
 def solution(a):
+    """
+    Return number of fragments in array `a` sum of which equal to zero.
+    Provided solution is not optimal and have O(n^2) time complexity.
+
+    :param a: list of integers
+    :return: cnt: integer
+    """
     N = len(a)
     if N <= MIN_SIZE or N > MAX_SIZE or (N == MAX_SIZE and not all(a)):
         return -1
