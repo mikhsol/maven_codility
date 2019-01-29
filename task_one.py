@@ -1,3 +1,9 @@
+"""
+Solution for the problem of finding the number of fragments of integer array
+sum of which equal zero.
+"""
+
+
 MIN_SIZE = 0
 MAX_SIZE = 100_000
 MIN_EL = -10_000
