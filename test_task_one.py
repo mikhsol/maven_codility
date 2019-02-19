@@ -75,7 +75,7 @@ class TestTaskOne(TestCase):
         self.assertEqual(6, solution([3, -3, 0, 12, -12]))
 
     def test_five_elements_sum_of_second_and_last_elements_zero_and_zero_in_the_middle_and_on_start(self):
-        self.assertEqual(5, solution([0, -3, 0, -3, 6]))
+        self.assertEqual(4, solution([0, -3, 0, -3, 6]))
 
     def test_five_elements_sum_of_first_and_last_are_zeros_large_in_the_middle(self):
         self.assertEqual(2, solution([1, -1, 1000, 3, -3]))
